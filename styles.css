@@ -4,3 +4,15 @@ body{
 h5{
   font-size: large;
 }
+img{
+  height:200;
+  width: 220;
+}
+.iso{
+  float: right;
+}
+#iso{
+  float: left;
+  padding-right:800px;
+  padding-top: 20px;
+}

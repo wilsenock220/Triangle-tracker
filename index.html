@@ -14,9 +14,36 @@
         <h5>Click the button written track.</h5>
         <h5>A pop up appears at the top of your screen, enter your values and press OK.</h5>
         <h5>A last pop up appears telling you the triangle type.</h5>
+     <div class="image">
+       <div class="equal">
+          <img src="equal.jpg" alt="equal" height="200" width="220">
+       </div>
 
+       <div class="iso">
+        <img src="iso.png" alt="isosceles" heght="200" width="220">
+        <div id="iso">
+          <img src="scalene.jpg" alt="scalene" height="210" width="220">
+        </div>
 
-       <!-- <img src="equal.jpg" alt="equal"> -->
-      <!-- <a href="#track"><button type="BUTTON" name="Track">TRACK</button></a> -->
+       </div>
+
+     </div>
+
+     <form class="fill">
+           <p><label for="side1">Length 1</label>
+           <input type="number" name="number1" side="length 1" id="side1"></p>
+
+           <p><label for="side2">Length 2</label>
+           <input type="number" name="number2" side="length 2" id="side2"></p>
+
+           <p><label for="side3">Length 3</label>
+           <input type="number" name="number3" side="length 3" id="side3"></p>
+
+           <input class="click" type="button" value="Confirm" get="result()">
+
+           <br></br>
+           <em><p id="answer"></p></em>
+         </form>
+
   </body>
 </html>
