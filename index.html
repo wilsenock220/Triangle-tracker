@@ -7,45 +7,52 @@
     <script type="scripts.js"></script>
   </head>
   <body>
-    <h1>TRIANGLE TRACKER</h1>
-     <p>This is a programme that is used to detect the shape of a triangle. We have different types of trianges that will be mentioned below.</p>
-       <h2>The following are steps to follow if you want to know the triangle whose values you have:</h2>
+    <div class="willy">
+      <h1>TRIANGLE TRACKER</h1>
+       <p>This is a programme that is used to detect the shape of a triangle. We have different types of trianges that will be mentioned below.</p>
+         <h2>The following are steps to follow if you want to know the triangle whose values you have:</h2>
 
-        <h5>Click the button written track.</h5>
-        <h5>A pop up appears at the top of your screen, enter your values and press OK.</h5>
-        <h5>A last pop up appears telling you the triangle type.</h5>
-     <div class="image">
+          <h5>Click the button written track.</h5>
+          <h5>A pop up appears at the top of your screen, enter your values and press OK.</h5>
+          <h5>A last pop up appears telling you the triangle type.</h5>
+    </div>
+
+
+    <div class="image">
        <div class="equal">
           <img src="equal.jpg" alt="equal" height="200" width="220">
        </div>
 
        <div class="iso">
 
-        <img src="iso.png" alt="isosceles" heght="200" width="220">
+         <img src="iso.png" alt="isosceles" heght="200" width="220">
 
-        <div id="iso">
-          <img src="scalene.jpg" alt="scalene" height="210" width="220">
-        </div>
+         <div id="iso">
+           <img src="scalene.jpg" alt="scalene" height="210" width="220">
+         </div>
 
        </div>
 
      </div>
 
-     <form class="fill">
-           <p><label for="side1">Length 1</label>
-           <input type="number" name="number1" side="length 1" id="side1"></p>
+     <div class="form">
+        <form class="fill">
+            <p><label for="side1">Length 1</label>
+            <input type="number" name="value1" side="length 1" id="side1"></p>
 
-           <p><label for="side2">Length 2</label>
-           <input type="number" name="number2" side="length 2" id="side2"></p>
+            <p><label for="side2">Length 2</label>
+            <input type="number" name="value2" side="length 2" id="side2"></p>
 
-           <p><label for="side3">Length 3</label>
-           <input type="number" name="number3" side="length 3" id="side3"></p>
+            <p><label for="side3">Length 3</label>
+            <input type="number" name="value3" side="length 3" id="side3"></p>
 
            <input class="click" type="button" value="Confirm" get="result()">
 
-           <br></br>
-           <em><p id="answer"></p></em>
-         </form>
+           <em><p id="Answer"></p></em>
+
+        </form>
+
+      </div>
 
   </body>
 </html>
