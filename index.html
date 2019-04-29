@@ -23,47 +23,46 @@
       </div>
 
     </div>
+      <div id="about">
+        <h2>Here are the three common types of triangles:</h2>
+           <h3>Equilateral Triangle</h3>
+           <h3>Isosceles Triangle</h3>
+           <h3>Scalene Triangle</h3>
 
-       <h2>Here are the three common types of triangles:</h2>
-          <h3>Equilateral Triangle</h3>
-          <h3>Isosceles Triangle</h3>
-          <h3>Scalene Triangle</h3>
+     <div class="image">
+        <div class="equal">
+           <img src="equal.jpg" alt="equal" height="200" width="220">
+        </div>
 
-    <div class="image">
-       <div class="equal">
-          <img src="equal.jpg" alt="equal" height="200" width="220">
-       </div>
+        <div class="iso">
 
-       <div class="iso">
+          <img src="iso.png" alt="isosceles" heght="200" width="220">
 
-         <img src="iso.png" alt="isosceles" heght="200" width="220">
-
-         <div id="iso">
-           <img src="scalene.jpg" alt="scalene" height="210" width="220">
-         </div>
+          <div id="iso">
+            <img src="scalene.jpg" alt="scalene" height="210" width="220">
+          </div>
 
 
-       </div>
+        </div>
 
-     </div>
+      </div>
+      </div>
+
         <h2>Track Triangle</h2>
         <p>Please enter your values below!</p>
      <div class="form">
-        <form class="fill">
-            <p><label for="side1">Length 1</label>
-            <input type="number" name="value1" side="length 1" id="side1"></p>
-
-            <p><label for="side2">Length 2</label>
-            <input type="number" name="value2" side="length 2" id="side2"></p>
-
-            <p><label for="side3">Length 3</label>
-            <input type="number" name="value3" side="length 3" id="side3"></p>
-
-           <input class="click" type="button" value="Confirm" get="result()">
-
-           <em><p id="Answer"></p></em>
-
-        </form>
+       <form class="form" onsubmit="return false">
+               <p><label for="side1">Enter side 1</label>
+               <input type="number" name="length1" id="side1"></p>
+               <p><label for="side2">Enter side 2</label>
+               <input type="number" name="length2" id="side2"></p>
+               <p><label for="side3">Enter side 3</label>
+               <input type="number" name="length3" id="side3"></p>
+               <input class="button1" type="button" value="Confirm" onclick="triangle()">
+               <input class="button2" type="button" value="Reset" onclick="reset()">
+               <br></br>
+               <em><p id="answer"></p></em>
+             </form>
 
       </div>
        <p>Copyright@2019. All rights reserved</p>
