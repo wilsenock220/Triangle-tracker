@@ -19,6 +19,7 @@ nav>ul>li>a:hover{
 body{
   text-align: center;
   font-weight: normal;
+  background-color: grey;
 }
 h5{
   font-size: large;

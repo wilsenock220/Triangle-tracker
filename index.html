@@ -11,7 +11,7 @@
       <ul>
        <li><a href="#home">Home</a></li>
        <li><a href="#about">About</a></li>
-       <li><a href="#contacts">Contacts</a></li>
+       <li><a href="#track">Track</a></li>
       </ul>
     </nav>
 
@@ -50,16 +50,17 @@
 
         <h2>Track Triangle</h2>
         <p>Please enter your values below!</p>
-     <div class="form">
+     <div id="track">
+        <h3>Track</h3>
        <form class="form" onsubmit="return false">
-               <!-- <p><label for="side1">Enter side 1</label> -->
+               <p><label for="side1">Enter side 1</label>
                <input type="number" name="side1" id="side1">
-               <!-- <p><label for="side2">Enter side 2</label> -->
+               <p><label for="side2">Enter side 2</label>
                <input type="number" name="side2" id="side2">
-               <!-- <p><label for="side3">Enter side 3</label> -->
+               <p><label for="side3">Enter side 3</label>
                <input type="number" name="side3" id="side3">
                <input class="button1" type="button" value="Confirm" onclick="triangle()">
-               <!-- <input class="button2" type="button" value="Reset" onclick="reset()"> -->
+               <<input class="button2" type="button" value="Reset" onclick="reset()">
                <br>
                <em><p id="answer"></p></em>
              </form>
