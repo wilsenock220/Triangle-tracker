@@ -1,3 +1,21 @@
+nav{
+  margin: 0 auto;
+  padding: 0.1% 0;
+}
+nav>ul{
+  text-align: right;
+}
+nav>ul>li{
+  display: inline-block;
+}
+nav>ul>li>a{
+  padding: 20px;
+  text-decoration: none;
+  color: brown;
+}
+nav>ul>li>a:hover{
+  background-color: blue;
+}
 body{
   text-align: center;
 }
@@ -5,7 +23,7 @@ h5{
   font-size: large;
 }
 img{
-  height:200;
+  height:200
   width: 220;
 }
 .iso{
@@ -16,12 +34,15 @@ img{
   padding-right:800px;
   padding-top: 20px;
 }
-.willy{
+#home{
   padding: 20px;
+  justify-content: space-between;
 }
 .image{
   padding-top: 20px;
 }
 h1{
   font-size: XX-large;
+  color: blue;
+  font-family: monospace;
 }
