@@ -1,71 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Triangle Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="scripts.js"></script>
-  </head>
-  <body>
-    <nav>
-      <ul>
-       <li><a href="#home">Home</a></li>
-       <li><a href="#about">About</a></li>
-       <li><a href="#track">Track</a></li>
-      </ul>
-    </nav>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" width="device-width">
+   <link rel="stylesheet" href="css/styles.css">
 
-       <div id="home">
+   <title>Triangle Tracker</title>
+
+ <body>
 
          <h1>TRIANGLE TRACKER</h1>
-         <p>This is a programme that is used to detect the shape of a triangle. We have different types of trianges that will be mentioned below.</p>
-           <img src="it.jpeg" alt="it" height="350" width="500">
-      </div>
+           
 
-    </div>
-      <div id="about">
-        <h2>Here are the three common types of triangles:</h2>
-           <h3>Equilateral Triangle</h3>
-           <h3>Isosceles Triangle</h3>
-           <h3>Scalene Triangle</h3>
-
-     <div class="image">
-        <div class="equal">
-           <img src="equal.jpg" alt="equal" height="200" width="220">
-        </div>
-
-        <div class="iso">
-
-          <img src="iso.png" alt="isosceles" heght="200" width="220">
-
-          <div id="iso">
-            <img src="scalene.jpg" alt="scalene" height="210" width="220">
-          </div>
-
-
-        </div>
-
-      </div>
-      </div>
-
-        <h2>Track Triangle</h2>
-        <p>Please enter your values below!</p>
-     <div id="track">
-        <h3>Track</h3>
-       <form class="form" onsubmit="return false">
-               <p><label for="side1">Enter side 1</label>
-               <input type="number" name="side1" id="side1">
-               <p><label for="side2">Enter side 2</label>
-               <input type="number" name="side2" id="side2">
-               <p><label for="side3">Enter side 3</label>
-               <input type="number" name="side3" id="side3">
-               <input class="button1" type="button" value="Confirm" onclick="triangle()">
-               <<input class="button2" type="button" value="Reset" onclick="reset()">
-               <br>
+             <form class="form">
+               <p><label for="length1">Length 1</label>
+               <input type="number" name="number1" placeholder="Length 1" id="length1"></p>
+               <p><label for="length2">Length 2</label>
+               <input type="number" name="number2" placeholder="Length 2" id="length2"></p>
+               <p><label for="length3">Length 3</label>
+               <input type="number" name="number3" placeholder="Length 3" id="length3"></p>
+               <input class="button1" type="button" value="Confirm" onclick="result()">
+               <input class="button2" type="button" value="Reset" onclick="reset()">
+               <br></br>
                <em><p id="answer"></p></em>
              </form>
 
-      </div>
-       <p>Copyright@2019. All rights reserved</p>
-  </body>
+ </body>
+ <script type="text/javascript" src="scripts.js"></script>
 </html>
