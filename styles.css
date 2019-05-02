@@ -4,7 +4,16 @@ html{
 nav>ul>li{
   text-align: right;
   display: inline-block;
+;
+}
+ul>li>a{
+  padding: 50px;
+  color: white;
   text-decoration: none;
+
+}
+li>a:hover{
+color: red;
 }
 body{
   text-align: center;
@@ -29,4 +38,10 @@ h2{
   font-stretch: extra-expanded;
   font-style: oblique;
   font-family: monospace;
+}
+.image{
+  justify-content: space-between;
+}
+img{
+  margin-right: 2%;
 }

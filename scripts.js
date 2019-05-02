@@ -9,11 +9,11 @@ if(length1+length2 > length3 && length2+length3 > length1 && length1+length3 > l
     answer.textContent='This is an Equilateral triangle!';
   }
   else if(length1 === length2 || length2 === length3 || length1 === length3){
-    answer.textContent='This is an isosceles triangle'
+    answer.textContent='This is an isosceles triangle!'
   }
   else{
-    answer.textContent="This is a scalene triangle";
-    // alert("This is a scalene triangle!")
+    answer.textContent="This is a scalene triangle!";
+  
   }
 }
  else {
