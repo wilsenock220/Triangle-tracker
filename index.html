@@ -3,27 +3,61 @@
  <head>
    <meta charset="utf-8">
    <meta name="viewport" width="device-width">
-   <link rel="stylesheet" href="css/styles.css">
-
-   <title>Triangle Tracker</title>
-
+    <title>Triangle Tracker</title>
+    <link rel="stylesheet" href="styles.css">
  <body>
+     <nav>
+       <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#track">Track</a></li>
+       </ul>
+     </nav>
 
-         <h1>TRIANGLE TRACKER</h1>
-           
+     <div id="home">
+       <h1>TRIANGLE TRACKER</h1>
+         <p>Welcome to this website! Do you have values for your triangle? Well, here we'll help you know the type of triangle whose values you have. WELCOME!</p>
+     </div>
 
-             <form class="form">
-               <p><label for="length1">Length 1</label>
-               <input type="number" name="number1" placeholder="Length 1" id="length1"></p>
-               <p><label for="length2">Length 2</label>
-               <input type="number" name="number2" placeholder="Length 2" id="length2"></p>
-               <p><label for="length3">Length 3</label>
-               <input type="number" name="number3" placeholder="Length 3" id="length3"></p>
-               <input class="button1" type="button" value="Confirm" onclick="result()">
-               <input class="button2" type="button" value="Reset" onclick="reset()">
-               <br></br>
-               <em><p id="answer"></p></em>
-             </form>
+     <div id="about">
+       <h2>About the website.</h2>
+         <p>Here, we'll give you the procedure to follow if you want to track your triangle.</p>
+         <h2>Follow the instructions below to track your triangle:</h2>
+            <div class="insta">
+              <p>
+                <h4>There is a form below where you enter the values of your triangle.</h4>
+                <h4>There is also a confirm button which you press after entering the values of your triangle.</h4>
+                <h4>The answer appears below the form telling you the type of triangle</h4>
+                <h4>There is also a reset button that is used to clear the form for other values to be entered.</h4>
+              </p>
+
+            </div>
+
+     </div>
+    <div id="track">
+      <h1>Let's track it! Enter your values below:</h1>
+      <form class="form">
+        <br></br>
+
+          <p><label for="length1">Length 1</label>
+          <input type="number" name="number1" placeholder="Length 1" id="length1"></p>
+          <p><label for="length2">Length 2</label>
+          <input type="number" name="number2" placeholder="Length 2" id="length2"></p>
+          <p><label for="length3">Length 3</label>
+          <input type="number" name="number3" placeholder="Length 3" id="length3"></p>
+          <input class="button1" type="button" value="Confirm" onclick="result()">
+          <input class="button2" type="button" value="Reset" onclick="reset()">
+        <br></br>
+
+        <em><h1 id="answer"></h1></em>
+      </form>
+
+      <div class="image">
+        <img src="equal.jpeg" alt="equal" height="200" width="300">
+        <img src="isose.png" alt="iso" height="200" width="250">
+        <img src="scal.jpg" alt="sca" height="200" width="300">
+      </div>
+    </div>
 
  </body>
  <script type="text/javascript" src="scripts.js"></script>
